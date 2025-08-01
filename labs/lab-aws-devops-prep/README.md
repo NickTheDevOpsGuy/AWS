@@ -1,12 +1,22 @@
 # AWS DevOPS Lab
 
 ## 📝 Description
-Brief description of what this project does and who it's for.
+A hands-on AWS lab for DevOps infrastructure provisioning with Terraform. This project includes a modular setup for VPC, EC2, IAM, remote state management, and CloudWatch monitoring. Ideal for DevOps engineers looking to upskill in AWS IaC workflows.
 
 ## 🚀 Getting Started
-- Clone the repo
-- Run `bicep build infra/main.bicep`
-- Deploy using Azure CLI or GitHub Actions
+1. Clone the repo
+2. ```bash 
+   
+   Export AWS_ACCESS_KEY_ID="your-access-key-id"
+   Export AWS_SECRET_ACCESS_KEY="your-secret-access-key" ```
+
+4. Initialize and apply the Terraform configuration:
+   
+   ```bash
+   terraform init
+   terraform apply```
+
+💡 You must have an existing S3 bucket and DynamoDB table set up for remote state if you’re using backend.tf.
 
 ## 📁 Project Structure
 ```plaintext
@@ -25,9 +35,11 @@ Brief description of what this project does and who it's for.
 ```
 
 ## 🔧 Tools Used
-- Azure Bicep
-- Application Insights
-- Log Analytics
+•	Terraform CLI
+•	AWS EC2, VPC, IAM
+•	CloudWatch Dashboards
+•	S3 + DynamoDB (Remote State)
+•	GitHub Actions (optional)
 
 ## 🙋‍♂️ About the Author
 
