@@ -39,7 +39,7 @@ Welcome to my cloud-native DevOps lab repository. This is where I explore real-w
 ## 🧭 Navigation
 
 - `AZ-400/` – Azure DevOps certification-aligned labs  
-- `axiscare-devops-prep-aws/` – AWS-focused lab for real-world prep  
+- `devops-prep-aws/` – AWS-focused lab for real-world prep  
 - More coming soon: monitoring dashboards, GitOps templates, cloud security patterns
 
 ---
