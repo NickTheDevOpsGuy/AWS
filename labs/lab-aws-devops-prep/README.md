@@ -5,8 +5,9 @@ A hands-on AWS lab for DevOps infrastructure provisioning with Terraform. This p
 
 ## 🚀 Getting Started
 1. Clone the repo
-2. ```bash 
-   
+2. Configure your AWS credentials:
+
+   ```bash   
    Export AWS_ACCESS_KEY_ID="your-access-key-id"
    Export AWS_SECRET_ACCESS_KEY="your-secret-access-key" ```
 
