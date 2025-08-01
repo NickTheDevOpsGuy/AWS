@@ -2,7 +2,7 @@
 
 Welcome to my cloud-native DevOps lab repository. This is where I explore real-world infrastructure, CI/CD, and automation patterns across **Azure** and **AWS**, using tools like **Terraform**, **Bicep**, **Kubernetes**, **GitHub Actions**, and more.
 
-> 🧠 Currently focused on: **AWS DevOps Prep for a technical interview with AxisCare.**  
+> 🧠 Currently focused on: **AWS DevOps Prep.**  
 > Labs below are hands-on, opinionated, and built for production-readiness.
 
 ---
