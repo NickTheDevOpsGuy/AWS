@@ -20,5 +20,5 @@ output "public_subnet_ids" {
 
 output "web_app_url" {
   description = "Access URL for the Node.js app"
-  value       = "http://${aws_instance.example_server.public_ip}:3000"
+  value       = "http://${aws_instance.example_server.public_ip}:5000"
 }
