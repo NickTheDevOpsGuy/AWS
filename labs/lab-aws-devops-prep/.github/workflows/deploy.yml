@@ -1,0 +1,4 @@
+on:
+  push:
+    paths:
+      - 'lab-aws-devops-prep/**'

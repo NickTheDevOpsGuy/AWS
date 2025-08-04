@@ -1,0 +1,30 @@
+# --- Terraform files ---
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+*.backup
+.terraform/
+.terraform.lock.hcl
+
+# --- Ignore override files (local-only config) ---
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# --- Sensitive CLI history ---
+.terraformrc
+terraform.rc
+
+# --- OS / Editor noise ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# --- Scripts / generated files ---
+scripts/bootstrap-backend.sh
+*.zip
