@@ -24,7 +24,7 @@ npm install
 npm install -g pm2
 
 # Start app with correct port and save process
-PORT=3000 pm2 start index.js --name node-app
+PORT=5000 pm2 start index.js --name node-app
 pm2 save
 pm2 startup systemd -u ubuntu --hp /home/ubuntu
 
