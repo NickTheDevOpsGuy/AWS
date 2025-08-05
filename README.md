@@ -18,7 +18,7 @@ Part of my **World Domination DevOps Plan™**, this repo includes multiple AWS-
 
 | Lab Name                      | Description                                               | Status     |
 |------------------------------|-----------------------------------------------------------|------------|
-| `ec2-node-app`               | Deploy a Node.js app with CloudWatch and IAM             | ✅ Done     |
+| `[@NickTheDevOpsGuy](https://github.com/NickTheDevOpsGuy)`               | Deploy a Node.js app with CloudWatch and IAM             | ✅ Done     |
 | `ssm-access-lab`             | Replace SSH with SSM Session Manager access              | 🏗️ In Progress |
 | `multi-tier-networking-lab`  | Setup VPC with public/private subnets and NAT Gateway    | 🧪 Planned  |
 | `eks-cluster-lab`            | Bootstrap an EKS cluster with Terraform                  | 🧪 Planned  |
