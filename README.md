@@ -18,8 +18,8 @@ Part of my **World Domination DevOps Plan™**, this repo includes multiple AWS-
 
 | Lab Name                      | Description                                               | Status     |
 |------------------------------|-----------------------------------------------------------|------------|
-| [lab-aws-devops-prep](./labs/lab-aws-devops-prep)               | Deploy a Node.js app with CloudWatch and IAM             | ✅ Done     |
-| `ssm-access-lab`             | Replace SSH with SSM Session Manager access              | 🧪 Planned  |
+| [lab-aws-devops-prep](./labs/lab-aws-devops-prep)              | Deploy a Node.js app with CloudWatch and IAM             | ✅ Done     |
+| [lab-aws-ssm-access-lab](./labs/lab-aws-ssm-access-lab)           | Replace SSH with SSM Session Manager access              | ✅ Done   |
 | `multi-tier-networking-lab`  | Setup VPC with public/private subnets and NAT Gateway    | 🧪 Planned  |
 | `eks-cluster-lab`            | Bootstrap an EKS cluster with Terraform                  | 🧪 Planned  |
 | `ci-cd-deploy-lab`           | Deploy infra and app via GitHub Actions + Terraform      | 🧪 Planned  |
