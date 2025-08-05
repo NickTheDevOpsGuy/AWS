@@ -22,24 +22,30 @@ A hands-on AWS lab for DevOps infrastructure provisioning with Terraform. This p
 ## 📁 Project Structure
 ```plaintext
 .
-├── terraform/
-│   ├── modules/               # VPC, EC2, IAM, EKS (modularized)
-│   ├── main.tf                # Root configuration
-│   └── backend.tf             # (optional) Remote state config
-├── .github/
-│   └── workflows/
-│       └── deploy.yml         # GitHub Actions pipeline
-├── monitoring/
-│   └── cloudwatch-dashboard.json
-├── app/                       # Sample app to deploy (static or containerized)
-└── README.md
+└── lab-aws-devops-prep
+    ├── .github
+    │   └── workflows
+    │       └── deploy.yml
+    ├── .gitignore
+    ├── README.md
+    ├── terraform
+    │   └── modules
+    │       ├── cloudwatch.tf
+    │       ├── ec2.tf
+    │       ├── iam.tf
+    │       ├── keypair.tf
+    │       ├── outputs.tf
+    │       ├── providers.tf
+    │       ├── security_groups.tf
+    │       ├── user_data.sh
+    │       ├── variables.tf
+    │       └── vpc.tf
 ```
 
 ## 🔧 Tools Used
 •	Terraform CLI
 •	AWS EC2, VPC, IAM
 •	CloudWatch Dashboards
-•	S3 + DynamoDB (Remote State)
 •	GitHub Actions (optional)
 
 ## 🙋‍♂️ About the Author
